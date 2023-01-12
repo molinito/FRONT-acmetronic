@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^1.12.0",
+    "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.17",
+    "@stripe/react-stripe-js": "^1.16.1",
+    "@stripe/stripe-js": "^1.46.0",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-modal-js": "^2.0.1",
+    "dotenv": "^16.0.3",
+    "formik": "^2.2.9",
+    "mdb-react-ui-kit": "^5.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-glider": "^4.0.2",
+    "react-icons": "^4.7.1",
+    "react-rating": "^2.0.5",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.4",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.1",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^11.4.0",
+    "sweetalert2": "^11.6.16"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "vite": "^3.2.3"
+  }
+}

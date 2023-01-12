@@ -1,0 +1,98 @@
+
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #333;
+  background-color: #fff;
+  font-family: "Raleway";
+  margin-top: 30px;
+}
+
+.about-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Raleway";
+}
+
+.about-description {
+  line-height: 1.5;
+  font-family: "Raleway";
+}
+
+.about-faq-title,
+.about-contact-title,
+.about-links-title,
+.about-social-title,
+.about-subscribe-title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background-color: #eee;
+  padding: 5px 10px;
+}
+
+.about-faq-list,
+.about-links-list,
+.about-social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-faq-item,
+.about-links-item,
+.about-social-item {
+  margin-bottom: 10px;
+}
+
+.about-faq-question {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about-faq-answer {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.about-contact-info {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.about-links-item > a {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.about-links-item > a:hover {
+  background-color: #444;
+}
+
+.about-social-item > a {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.about-social-item > a:hover {
+  background-color: #444;
+}
+@media screen and (max-width: 768px) {
+  .about-container {
+    margin-top: 320px;
+  }
+}

@@ -1,0 +1,23 @@
+.btn-pagination {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  font-family: "Raleway";
+}
+
+.btn-pagination:hover {
+  background-color: #eee;
+}
+
+.btn-pagination.active {
+  background-color: #333;
+  color: white;
+}

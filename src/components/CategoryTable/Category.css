@@ -1,0 +1,84 @@
+.container {
+  text-decoration: none;
+}
+
+.container h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .container h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 220px;
+  }
+}
+
+.container p {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: large;
+}
+  
+
+
+.table {
+  display: table;
+  table-layout: fixed;
+  flex-direction: column;
+  border-collapse: collapse;
+  border-spacing: 2;
+  border: 3px solid #ccc;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+  align-content: left;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.th {
+  background-color: #ddd;
+}
+
+.input {
+  width: 100%;
+  text-decoration-color: black;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+  background-color: #ffff;
+  border: 2px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 15px #142328cc;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  margin-top: 15px;
+}
+

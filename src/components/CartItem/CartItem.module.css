@@ -1,0 +1,95 @@
+.itemContainer {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.imgAndName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    grid-gap: 5px;
+    gap: 5px;
+    padding: 5px;
+}
+.itImg {
+    padding: 1rem;
+}
+.itName > p {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.deleteBtn {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteBtn > button {
+    padding: 1rem;
+    outline: none;
+    border: solid white;
+    border-radius: 50%;
+    height: 58px;
+    background-color: white;
+}
+.deleteBtn > button:hover {
+    color: rgb(221, 33, 33);
+    background-color: #efefef;
+    cursor: pointer;
+}
+.deleteBtn > button > svg {
+    width: 20px;
+    height: 20px;
+}
+.quantity {
+    display: flex;
+    align-content: center;
+}
+.quantity > button {
+    align-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1.5px solid #319795;
+    border-radius: 5px;
+    color: #319795;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.quantity > button:hover {
+    color: #efefef;
+    background-color: #319795;
+}
+
+.quantity > h4 {
+    padding: 0 1rem;
+}
+@media screen and (max-width: 768px) {
+    .itemContainer {
+     padding: 0.5rem;
+     gap: 15px;
+    }
+    .imgAndName {
+        justify-content: center;
+        width: 100%;
+        padding: 0.3rem;
+    }
+    .itImg {
+        padding: 0.5rem;
+    }
+    .deleteBtn > button {
+        padding: 0;
+        height: 58px;
+    }
+ }

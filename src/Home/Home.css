@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+}
+.container{
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway";
+  margin-top: 100px;
+  text-decoration:underline cadetblue;
+  
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 0px;
+  }
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  margin-top: 50px;
+  margin-left: 30px;
+ 
+}
+
+.background {
+  background-color: #f8f9fa;
+  width: 80%;
+  margin: auto;
+  margin-top: 120px; 
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2 2 20px #319795(0, 0, 0, 0.15);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+  .background {
+    margin-top: 340px;
+  }
+}
+
+.container h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "raleway", sans-serif;
+  margin-top: 40px;
+}

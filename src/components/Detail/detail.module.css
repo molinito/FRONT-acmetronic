@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+.detail {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 120px;
+}
+@media screen and (min-width: 768px) {
+    .detail {
+        flex-direction: row;
+        
+    }
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        
+    }
+    
+}
+
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    border-radius: 1rem;
+    border-radius: 10px;
+    box-shadow: 4px 8px 20px 8px #319795;
+    orientation: portrait;
+}
+
+@media screen and (min-width: 768px) {
+    .img {
+        flex-direction: column;
+        max-width: 50%;
+    }
+    
+}
+
+.img>img {
+    max-height: 350px;
+    border-radius: 10%;
+}
+
+@media screen and (min-width: 768px) {
+    .img>img {
+        max-height: 350px;
+    }
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+    .content {
+        flex-direction: column;
+        max-width: 50%;
+    }
+}
+
+.content>h1,
+.content>h2,
+.content>p,
+.content>h3 {
+    padding: 0.5rem;
+}
+
+.button {
+    padding-top: 1rem;
+}
+
+.button>button {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    background-color: #1DC9A0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: all 0.15s linear;
+}
+@media screen and (min-width: 768px) {
+    .button>button {
+        font-size: 1rem;
+    }
+    
+}
+
+.button>button:hover {
+    background-color: rgba(29, 201, 160, 0.08);
+    border-color: #1DC9A0;
+    color: #1DC9A0;
+    transform: translateY(-5px) scale(1.05);
+    cursor: pointer;
+}
+
+.button>button:active {
+    background-color: transparent;
+    border-color: #1DC9A0;
+    color: #1DC9A0;
+    transform: translateY(5px) scale(0.95);
+}
+
+.button>button:disabled {
+    background-color: rgba(255, 255, 255, 0.16);
+    color: #8E8E93;
+    border-color: #8E8E93;
+}
+
+.reviews {
+    margin-top: 3rem;
+    box-shadow: 2px 4px 10px 4px gray;
+
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 1rem;
+
+}
+@media screen and (min-width: 768px) {
+    .reviews {
+        margin-top: 3rem;
+        border: solid 1px rgb(219, 219, 219);
+        border-radius: 1rem;
+    }
+    
+}
+
+.reviews>h2,
+.reviewsContent,
+.reviews>.reviewsBtn {
+    padding: 1rem;
+}
+
+.reviewsBtn>button {
+    font-family: 'Raleway', sans-serif;
+    color: #1DC9A0;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.reviewsBtn>button:hover {
+    cursor: pointer;
+    background-color: #1DC9A0;
+    color: white;
+}
+
+.backLink > a {
+    color:#319795;
+    font-size: 2rem;
+    
+}
+.backLink > a:hover{
+    color:#319795;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 340px;
+    }
+
+    .content {
+        padding: 2rem;
+    }
+    .backLink {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 150px;
+    }
+}
+.favIcons {
+    color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.table {
+  display: table;
+  table-layout: fixed;
+  flex-direction: column;
+  border-collapse: collapse;
+  border-spacing: 2;
+  border: 3px solid #ccc;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+  }
+}
+  
+
+.td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+  align-content: left;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.th {
+  background-color: #ddd;
+}
+
+.input {
+  width: 100%;
+  text-decoration-color: black;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+  background-color: #ffff;
+  border: 2px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 15px #142328cc;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #142328;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 20px;
+    margin-top: 300px;
+  }
+}
+  
+  
+  
+
+
+.back button p {
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5%;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #319795;
+}
+
+@media screen and (max-width: 768px) {
+  .back button p {
+    font-size: 12px;
+  }
+}

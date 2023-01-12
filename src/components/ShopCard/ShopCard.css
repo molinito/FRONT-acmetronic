@@ -1,0 +1,173 @@
+.shop-card {
+  background-color: white;
+  border: 1px solid #319795;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+  align-content: center;
+  font-family: "Raleway";
+  justify-content: space-between;
+  display: cover;
+  position: relative;
+  padding: 10px;
+  flex: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-height: 40rem;
+  width: 25rem;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .shop-card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.shop-card-link{
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+
+.shop-card:hover {
+  box-shadow: 4px 3px 4px 2px #319795;
+  transform: translateY(-5px);
+}
+.shop-card:hover a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .shop-card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.shop-card-link img {
+  box-shadow: 3px 2px 3px 1px #319795;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #319795;
+}
+
+@media screen and (max-width: 768px) {
+  .shop-card-link img {
+    width: 25%;
+  }
+}
+
+.buy-button,
+.add-to-cart-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  margin: 2rem;
+}
+
+.buy-button:hover,
+.add-to-cart-button:hover {
+  background-color: #eee;
+}
+
+.buy-button.active,
+.add-to-cart-button.active {
+  background-color: #333;
+  color: white;
+}
+
+.product-quantity {
+  display: inline-block;
+  width: 50px;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin: 5px;
+}
+
+.product-quantity:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.product-quantity select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-quantity select:focus {
+  outline: none;
+}
+
+.product-quantity button{
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+.buy-button:hover{
+  background-color:#319795;
+  color: white;
+}
+.add-to-cart-button:hover{
+  background-color:#319795;
+  color: white;
+
+}
+
+
+
+
+
+
+
+  
+
+

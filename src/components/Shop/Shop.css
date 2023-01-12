@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.shop-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f8f9fa;
+} 
+
+@media screen and (max-width: 768px) {
+  .shop-background {
+    flex-direction: column;
+    margin-top: 180px;
+  }
+}
+.shop-card:hover {
+  border: solid 0.5px #319795;
+  text-decoration: none;
+}
+.cardLink:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.pagination-container {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .pagination-container {
+    flex-direction: column;
+  }
+  
+}
+
+  

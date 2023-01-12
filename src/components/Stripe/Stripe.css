@@ -1,0 +1,58 @@
+.card-body {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #319795;
+    border-radius: 10px;
+    top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-body {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group h4{
+    color: yellow;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+
+.form-group button {
+    background-color: #319795;
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.form-group button:hover {
+    background-color: white;
+    color: #319795;
+    border: solid 2px #319795;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #319795;
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,87 @@
+.wCont{
+    font-family: "Raleway";
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .wCont{
+        margin-top: 340px;
+    }
+    
+}
+.wCont > h1 {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 0.5rem;
+}
+.wItem {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0 0 1px grey;
+    width: 70%;
+}
+.wItem > img {
+    object-fit: cover;
+}
+.productName {
+    padding: 1rem;
+    width: 60%;
+}
+.likeBtn > button {
+   color: red;
+   background-color: transparent;
+   border: 1px transparent;
+   padding: 1rem;
+}
+.likeBtn > button:hover{
+    cursor: pointer;
+}
+.empty {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-family: 'Raleway';
+    padding: 2rem;
+}
+.searchBtn {
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color:  #319795;
+    color: white;
+}
+
+.empty > h2 {
+    padding: 3rem;
+}
+.searchBtn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .wCont{
+        margin-top: 340px;
+    }
+    .wItem{
+        width: 90%;
+    }
+    .productName {
+        padding: 0.5rem;
+        width: 50%;
+    }
+    .likeBtn {
+        padding: 0.5rem;
+    }
+    .wItem > img {
+        width: 80px;
+        object-fit: contain;
+    }
+}
