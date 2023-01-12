@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("../../assets/28.png");
+    background-image: url("../../assets/27.png");
     font-family: 'Raleway';
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,7 @@
 }
 @media screen and (max-width: 768px) {
     .landing{
-        background-image: url("../../assets/28.png");
+        background-image: url("../../assets/27.png");
         background-repeat: no-repeat;
         background-position: center;
         margin-top: 330px;
