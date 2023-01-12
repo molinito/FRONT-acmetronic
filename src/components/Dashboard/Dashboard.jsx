@@ -14,6 +14,7 @@ function Dashboard() {
 
   const allCategories = useSelector((state) => state.categories);
   const allProducts = useSelector((state) => state.products);
+  const myOrders = useSelector((state) => state.orderDetail);
 
   const favorites = useSelector((state) => state.favorites);
   let user = JSON.parse(localStorage.getItem("loggedUser"));
@@ -31,6 +32,8 @@ function Dashboard() {
   let myProducts = allProducts !== undefined ? allProducts.length : "0";
 
   const myUsers = allUsers !== undefined ? allUsers.length : "0";
+
+  let orders = myOrders !== undefined ? myOrders.length : "0"
 
   const [showModal, setShowModal] = useState(false);
 
@@ -89,8 +92,19 @@ function Dashboard() {
                   alt=""
                 />
                 <div className="d-flex align-items-center mt-2">
-                  <div className="tag">Orders placed</div>
-                  <div className="ms-auto number">10</div>
+                  <div className="tag"></div>
+                  <Link
+                    to={"/userhistory"}
+                    style={{
+                      fontSize: "14px",
+                      color: "black",
+                      marginTop: "20px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Orders placed
+                  </Link>
+                  <div className="ms-auto number"><p>{orders}</p></div>
                 </div>
               </div>
               <div className="box me-4 my-1 bg-light">

@@ -42,7 +42,6 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/users" element={<UsersTable />} />
-        <Route path="/userhistory" element={<UserHistory />} />
         <Route path="/contact" element={<ContactUs />} />
 
         <Route element={<ProtectedRoutes />}>
@@ -53,6 +52,7 @@ function App() {
           <Route path="/stripe" element={<Stripe />} />
           <Route path="/wishlist" element={<WishList />} />
           <Route path="/editprofile" element={<EditProfile />} />
+          <Route path="/userhistory" element={<UserHistory />} />
         </Route>
       </Routes>
       <Footer />

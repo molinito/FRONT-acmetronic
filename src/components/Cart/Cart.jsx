@@ -22,7 +22,17 @@ export default function Cart() {
   function TotalPrice(price, tonggia) {
     return Number(price * tonggia).toLocaleString("en-US");
   }
-
+  let data = {
+    "status": "created",
+    "total": TotalCart,
+    "items": cart.map((item) => [
+      "id", item.id,
+      "name", item.name,
+      "price", item.price,
+      "quantity", item.quantity,
+    ]),
+    "email": user? user.email : "email",
+  };
   // -- el item se guarda en el carrito ---
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
@@ -31,22 +41,11 @@ export default function Cart() {
   const handleClear = () => {
     dispatch(clearCart());
   };
-  if(usersDb.length){
-    let data = {
-    status: "shopping_cart",
-    total: TotalCart,
-    items: cart.map((item) => [
-      "id", item.id,
-      "name", item.name,
-      "price", item.price,
-      "quantity", item.quantity,
-    ]),
-    email: usersDb.data.searchUser.email,
-  };
-  }
+ 
+  
 
   const handleSaveCart = () => {
-    if(usersDb.length ){dispatch(postOrder(data));}
+    dispatch(postOrder(data))
     navigate("/stripe/");
   };
 
@@ -88,3 +87,4 @@ export default function Cart() {
       </div>
     );
 }
+

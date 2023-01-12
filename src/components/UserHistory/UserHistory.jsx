@@ -20,7 +20,7 @@ export default function UserHistory() {
   const user = useSelector((state) => state.user.data.searchUser);
   
   useEffect(() => {
-    dispatch(getOrders)
+    dispatch(getOrders())
     dispatch(getOrderByEmail(user.email));
   }, [dispatch]);
 
@@ -43,7 +43,7 @@ export default function UserHistory() {
         </div>
       
         <TableContainer>
-          <Table classname="table">
+          <Table className="table">
             <TableHead className="th">
               <TableRow>
                 <TableCell className="cell ">ID</TableCell>
@@ -59,7 +59,7 @@ export default function UserHistory() {
                    <TableRow key={order.id}>  
                     <TableCell><p>{order.id}</p></TableCell>
                   <TableCell><p>{order.status}</p></TableCell>
-                  <TableCell>{order.items.map(el =><p>{el[3]}</p> )}</TableCell>
+                  <TableCell>{order.items.map(el => <p>{el.slice(3,4)}</p>)}</TableCell>
                   <TableCell>{order.items.map(el => <p>{el[7]}</p>)}</TableCell>
                   <TableCell><p>$ {order.total}</p></TableCell>
                   </TableRow>
@@ -71,3 +71,4 @@ export default function UserHistory() {
     </>
   );
 }
+
