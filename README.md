@@ -10,7 +10,9 @@ Crear una página comercial que contenga todo lo necesario para que, tanto admin
 
 Alcance:
 El cliente una vez creada su cuenta y estando logueado, puede seleccionar uno o más productos, agregarlos a un carrito de compras, o guardarlos en el sector de favoritos para una posible compra futura. Una vez decidida la compra puede ir a la sección de pagos, donde podrá adquirir sus productos mediante el método de pago seleccionado.
-Una vez concretada la compra, el cliente tiene la posibilidad de dejar un comentario y una calificación del articulo, que tendrá a disposicón para consultar a futuro mediante un Dashboard personal, con el historial de transacciones. Además el cliente, recibirá en su casilla de correo, no solo la notificación de compra, sino también factura con el detalle y comprobante del método de pago seleccionado.
+Concretada la compra, el cliente tiene la posibilidad de dejar un comentario y una calificación del articulo, que tendrá a disposicón para consultar a futuro mediante un Dashboard personal, con el historial de transacciones. 
+Tanto las calificaciones como las reviews serán visibles para cualquier cliente, registrado o no, que seleccione el artículo donde podrá ver en la card de detalles del productos, no solo los detalles sino también su rating y comentarios de compradores anteriores.
+Además el cliente, recibirá en su casilla de correo, no solo la notificación de compra, sino también factura con el detalle y comprobante del método de pago seleccionado.
 Adempas, la página cuenta con un Dashboard de nivel administrador, con todos los recursos mencionados anteriormente y otros de uso exclusivo del administrador donde puede agregar, editar, mantener, eliminar productos, categorias, usuarios entre otras prestaciones.
 
 La app puede disfrutarse tanto en pantallas de pc como teléfonos celulares ya que ha sido adaptada para diferentes formatos de pantalla.
