@@ -1,6 +1,10 @@
 ACMEtronics 
 Tienda dedicada al comercio de artículos electrónicos
 
+
+![logo1](https://user-images.githubusercontent.com/90290212/212810517-30dfa63c-24e5-42f8-b517-6066c342a87f.jpg)
+
+
 Objetivos: 
 Crear una página comercial que contenga todo lo necesario para que, tanto administrador como cliente puedan acceder a un catálogo de productos, ordenados por categorías, filtros con diferentes opciones, así como una barra de búsqueda por palabras.
 
