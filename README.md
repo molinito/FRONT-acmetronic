@@ -1,9 +1,12 @@
 ACMEtronics 
 Tienda dedicada al comercio de artículos electrónicos
 
-Objetivos: Crear una página comercial que contenga todo lo necesario para que el cliente pueda acceder a un catálogo de productos, ordenados por categorías, filtros con diferentes opciones, así como una barra de búsqueda por palabras.
+Objetivos: 
+Crear una página comercial que contenga todo lo necesario para que, tanto administrador como cliente puedan acceder a un catálogo de productos, ordenados por categorías, filtros con diferentes opciones, así como una barra de búsqueda por palabras.
+
+Alcance:
 El cliente una vez creada su cuenta y estando logueado, puede seleccionar uno o más productos, agregarlos a un carrito de compras, o guardarlos en el sector de favoritos para una posible compra futura. Una vez decidida la compra puede ir a la sección de pagos, donde podrá adquirir sus productos mediante el método de pago seleccionado.
-Una vez concretada la compra, el cliente tiene la posibilidad de dejar un comentario y una calificación del articulo, que tendrá a disposicón para consultar a futuro mediante una Dashboard personal, mediante el historial de transacciones. Además el cliente, recibirá en su casilla de correo, no solo la factura de compra sino también el detalle y comprobante del método de pago seleccionado.
+Una vez concretada la compra, el cliente tiene la posibilidad de dejar un comentario y una calificación del articulo, que tendrá a disposicón para consultar a futuro mediante un Dashboard personal, con el historial de transacciones. Además el cliente, recibirá en su casilla de correo, no solo la notificación de compra, sino también factura con el detalle y comprobante del método de pago seleccionado.
 Adempas, la página cuenta con un Dashboard de nivel administrador, con todos los recursos mencionados anteriormente y otros de uso exclusivo del administrador donde puede agregar, editar, mantener, eliminar productos, categorias, usuarios entre otras prestaciones.
 
 La app puede disfrutarse tanto en pantallas de pc como teléfonos celulares ya que ha sido adaptada para diferentes formatos de pantalla.
